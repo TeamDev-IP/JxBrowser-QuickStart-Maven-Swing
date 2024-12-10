@@ -18,9 +18,10 @@
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.teamdev.jxbrowser.quickstart;
+package com.teamdev.jxbrowser.quickstart.maven.swt;
 
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
+import static javax.swing.SwingUtilities.invokeLater;
 
 import com.teamdev.jxbrowser.browser.Browser;
 import com.teamdev.jxbrowser.engine.Engine;
@@ -44,7 +45,7 @@ public final class App {
         // Create a Browser instance.
         Browser browser = engine.newBrowser();
 
-        SwingUtilities.invokeLater(() -> {
+        invokeLater(() -> {
             JFrame frame = new JFrame("JxBrowser AWT/Swing");
             frame.addWindowListener(new WindowAdapter() {
                 @Override

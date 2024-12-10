@@ -1,32 +1,24 @@
-# JxBrowser in Swing Maven project
+# JxBrowser in a Maven-based Swing desktop application
 
-This example demonstrates how to configure a Maven project with JxBrowser to embed a Swing `BrowserView` widget into a Swing desktop application to display web pages.
+This example demonstrates how to configure a Maven project with JxBrowser to embed a `BrowserView` widget into a Swing desktop application to display web pages.
 
 ## Prerequisites
 
-To compile and run this example please make sure you use Java 17 or higher.
-
-## Download the project
-
-Clone this repository using the following command:
-
- ```bash
- git clone https://github.com/TeamDev-IP/JxBrowser-QuickStart-Maven-Swing.git
- cd JxBrowser-QuickStart-Maven-Swing
- ```
-
-## Get license
-
-Download a free 30-day evaluation license key by sending a request via the [web form](https://www.teamdev.com/jxbrowser#evaluate).
+* Java 17 or newer.
+* Your JxBrowser license key, or a [free 30-day evaluation key][web-form].
 
 ## Run the Swing application
 
-Use the following command:
+Use the following command to start the application:
 
 ```bash
 mvn clean compile exec:java -Djxbrowser.license.key=<your_license_key>
 ```
 
-It will build and start a Swing desktop application with Swing `BrowserView` inside that displays https://html5test.teamdev.com as shown below:
+Once launched, the app loads the [HTML5 test page][html5-test-page]:
 
-![Swing BrowserView](https://jxbrowser-support.teamdev.com/img/articles/awt-swing-view.png)
+![Swing BrowserView][swing-browser-view]
+
+[web-form]: https://www.teamdev.com/jxbrowser#evaluate
+[html5-test-page]: https://html5test.teamdev.com
+[swing-browser-view]: https://jxbrowser-support.teamdev.com/img/articles/awt-swing-view.webp
