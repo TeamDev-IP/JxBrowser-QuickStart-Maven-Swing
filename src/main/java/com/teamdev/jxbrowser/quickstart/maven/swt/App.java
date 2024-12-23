@@ -46,7 +46,7 @@ public final class App {
         Browser browser = engine.newBrowser();
 
         invokeLater(() -> {
-            JFrame frame = new JFrame("JxBrowser AWT/Swing");
+            JFrame frame = new JFrame("JxBrowser Swing");
             frame.addWindowListener(new WindowAdapter() {
                 @Override
                 public void windowClosing(WindowEvent e) {
