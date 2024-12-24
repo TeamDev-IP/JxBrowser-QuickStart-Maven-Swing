@@ -18,7 +18,7 @@
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.teamdev.jxbrowser.quickstart.maven.swt;
+package com.teamdev.jxbrowser.quickstart.maven.swing;
 
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 import static javax.swing.SwingUtilities.invokeLater;
@@ -29,7 +29,6 @@ import com.teamdev.jxbrowser.view.swing.BrowserView;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
 
 /**
  * This example demonstrates how to initialize Chromium, create a browser instance

@@ -12,7 +12,7 @@
         <jxbrowser.version>8.2.1</jxbrowser.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.teamdev.jxbrowser.quickstart.maven.swt.App</exec.mainClass>
+        <exec.mainClass>com.teamdev.jxbrowser.quickstart.maven.swing.App</exec.mainClass>
     </properties>
 
     <repositories>
