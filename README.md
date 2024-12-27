@@ -4,7 +4,7 @@ This example demonstrates how to configure a Maven project with JxBrowser to emb
 
 ## Prerequisites
 
-* Java 8 or newer.
+* Java 8.
 * Your JxBrowser license key, or a [free 30-day evaluation key][web-form].
 
 ## Run the Swing application
