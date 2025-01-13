@@ -1,5 +1,5 @@
 /*
- *  Copyright 2024, TeamDev. All rights reserved.
+ *  Copyright 2025, TeamDev. All rights reserved.
  *
  *  Redistribution and use in source and/or binary forms, with or without
  *  modification, must retain the above copyright notice and the following
@@ -23,7 +23,6 @@ package com.teamdev.jxbrowser.quickstart.maven.swing;
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 import static javax.swing.SwingUtilities.invokeLater;
 
-import com.teamdev.jxbrowser.browser.Browser;
 import com.teamdev.jxbrowser.engine.Engine;
 import com.teamdev.jxbrowser.view.swing.BrowserView;
 import java.awt.event.WindowAdapter;
