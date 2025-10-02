@@ -21,4 +21,4 @@ Once launched, the app loads the [HTML5 test page][html5-test-page]:
 
 [web-form]: https://www.teamdev.com/jxbrowser#evaluate
 [html5-test-page]: https://html5test.teamdev.com
-[swing-browser-view]: https://jxbrowser-support.teamdev.com/img/articles/awt-swing-view.webp
+[swing-browser-view]: https://teamdev.com/jxbrowser/img/articles/swing-view.webp
