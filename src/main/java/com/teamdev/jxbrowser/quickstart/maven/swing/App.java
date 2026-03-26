@@ -28,6 +28,7 @@ import com.teamdev.jxbrowser.view.swing.BrowserView;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 /**
  * This example demonstrates how to initialize Chromium, create a browser instance
@@ -52,6 +53,8 @@ public final class App {
                     engine.close();
                 }
             });
+            frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+
             // Create and embed Swing BrowserView component to display web content.
             frame.add(BrowserView.newInstance(browser));
             frame.setSize(1280, 800);
